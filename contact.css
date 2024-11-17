@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Didact Gothic', sans-serif;
+    src: url(DidactGothic-Regular.ttf);
+} 
+html{
+    font-family: 'Didact Gothic', sans-serif;
+}
+/* contact */
+/* header{
+    background-image: url(./images/breadcrumb.webp);
+} */
+header .container{
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: relative;
+    padding: 20px 200px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header .row {
+    align-items: center;
+}
+header .textDiv{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+header .textDiv a{
+    text-decoration: none;
+    color: black;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    padding: 20px 200px;
+}
+.mainPartContact .row{
+    flex-direction: column;
+    gap: 25px;
+}
+.mainPartContact .container{
+    padding: 80px 200px;
+    display: flex;
+}
+.mainPartContact .row .col{
+    background-color: #fff4f9;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 20px 40px;
+    gap: 50px;
+
+}
+
+.mainPartContact .row .col i{
+    color: #bd2067;
+    transition: 1s;
+    padding: 10px;
+}
+
+.mainPartContact .row .col i:hover{
+    background-color: #bd2067;
+    color: white;
+}
+.mainPartContact .secondRow{
+    width: 60%;
+}
+.secondRow input{
+    padding: 20px 10px ;
+}
+.secondRow input::placeholder{
+    font-size: 15px;
+}
+.secondRow textarea{
+    padding: 20px 10px ;
+}
+.secondRow textarea::placeholder{
+    font-size: 15px;
+}
+.secondRow h1{
+    margin-top: 0;
+}
+
+.secondRow a {
+    border: #C850C0 1px solid;
+    color: #C850C0;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.secondRow a:hover {
+    color: #ffffff;
+    background-color: #C850C0;
+}
+
+/* footer */
+footer {
+    background-color: #ac6685;
+    margin-top: 50px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-family: "roboto medium";
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 17px;
+    font-family: "Roboto Regular";
+    padding-bottom: 20px;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 5px;
+    color: #000000;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "roboto_medium";
+}
+
+footer p {
+    font-family: "roboto_regular";
+}
+
+#footer_input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-color: #000000;
+}
+
+footer input::placeholder {
+    color: #000000;
+}
+
+footer input:hover {
+    background-color: #ffffff;
+    border-color: #f60000;
+}
+
+.subscribe {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.subscribe:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.quickLinks {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #000000;
+}
+
+@media screen and (max-width:762px) {
+    .mainPartContact .container{
+        padding: 0;
+        display: block;
+        margin-top: 20px;
+    }
+    .mainPart{
+        margin: 30px;
+        width: 100%;
+    }
+    form .row{
+        display: block;
+        width: 100%;
+    }
+ .col{
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+    }
+    .mainPartContact .container .row{
+        width: 100%;
+    }
+    footer .row{
+        display: block;
+        padding: 0;
+    }
+}

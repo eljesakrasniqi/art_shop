@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Didact Gothic', sans-serif;
+    src: url(DidactGothic-Regular.ttf);
+}
+
+html {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+/* header {
+    background-image: url(./images/breadcrumb.webp);
+} */
+
+header .container {
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: relative;
+    padding: 20px 200px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header .col {
+    width: 48%;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+header .textDiv {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+
+header .textDiv a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+header img{
+    width: 300px;
+}
+#colOne{
+    text-align: center;
+}
+#colOne ul{
+    list-style-type: none;
+}
+#colOne ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_container {
+    padding: 20px 200px;
+
+}
+.payment .container{
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+.payment .container .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.payment .container .row .column{
+    flex-basis: 45%;
+}
+.payment .container .row .column img{
+    width: 100%;
+}
+
+
+.payment .container .row .selection{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.payment .container .row .column input{
+    width: 100%;
+    padding: 10px 0
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input_row{
+    display: flex;
+    justify-content: space-between;
+}
+.input_row .col{
+    flex-basis: 30%;
+}
+.input_row .col input{
+    width: 100%;
+}
+
+.payment .container .row .column img{
+    width: 28%;
+    display: block;
+    margin-bottom: 20px;
+}
+.card_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.card_row .card_col{
+    flex-basis: 49%;
+}
+.card_row .card_col input{
+    width: 100%;
+}
+.checkbox input{
+    width: 0%;
+}
+
+.buy_col .buy_link p{
+    position: relative;
+    left: 42.5%;
+    font-size: 18px;
+}
+.payment .container .buy_link {
+    border: 1px solid #9b5273;
+    background-color: #9b5273;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+}
+
+.secondCol{
+    display: flex;
+}
+.text_col{
+    padding-left: 20px;
+}
+.text_col p{
+    font-size: 19px;
+}
+.priceCol{
+    display: flex;
+}
+.priceCol .price{
+    position: relative;
+    left: 50%;
+    top: 25%;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #ac6685;
+    margin-top: 50px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+
+footer .col {
+    display: block;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-family: "roboto medium";
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 17px;
+    font-family: "Roboto Regular";
+    padding-bottom: 20px;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 5px;
+    color: #000000;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "roboto_medium";
+}
+
+footer p {
+    font-family: "roboto_regular";
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-color: #000000;
+}
+
+footer input::placeholder {
+    color: #000000;
+}
+
+footer input:hover {
+    background-color: #ffffff;
+    border-color: #f60000;
+}
+
+.subscribe {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.subscribe:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.quickLinks {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #000000;
+}
+#colOne{
+    display: none;
+}
+#header{
+    display: none;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+.dropDownMenu{
+    flex-direction: column;
+}
+@media screen and (max-width:762px){
+    .colTwo{
+        display: none;
+    }
+    #colOne{
+        flex-direction: column;
+    }
+    #header{
+        display: block;
+    }
+    header{
+        display: block;
+    }
+    header ul{
+        flex-direction: column;
+    }
+    header .container{
+        padding: 10px;
+    }
+    footer .row{
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    header .row{
+        display: flex;
+    }
+    header .colOne{
+        display: none;
+    }
+    .header_container{
+        padding: 10px 30px;
+    }
+    header .row{
+        justify-content: space-between;
+    }
+    .payment .container .row{
+        flex-direction: column;
+    }
+    .secondCol{
+        flex-direction: column;
+    }
+    .payment .container .row .column img{
+        width: 100%;
+    }
+    .priceCol{
+        flex-direction: column;
+        text-align: center;
+    }
+    .priceCol .price{
+        left: auto;
+        top: auto;
+    }
+    .payment .container{
+        max-width: max-content;
+        margin: 10px;
+
+    }
+
+}

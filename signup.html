@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c651f9400.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <section class="signUpSection">
+        <div class="mainPart mainPartTwo">
+            <h1>Sign Up</h1>
+            <form id="form">
+            <div class="row">
+                
+
+                
+                <div class="col">
+                    <p>First Name</p>
+                    <input type="text" id="firstName" placeholder="Enter ...">  
+                </div>
+                <div class="col">
+                    <p>Last Name</p>
+                    <input type="text" id="lastName" placeholder="Enter ..."> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Birthday</p>
+                    <input type="date" id="birthday">
+                </div>
+                <div class="col">
+                    <p>Gender</p>
+                    <div class="genderTypes">
+                        <div class="maleDiv">
+                           <input type="radio" name="gender" id="male">
+                           <label for="male">Male</label>                            
+                        </div>
+                        <div class="femaleDiv">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Email</p>
+                    <input type="email" id="email" placeholder="Enter ..."> 
+                </div>
+                <div class="col">
+                    <p>Password</p>
+                    <input type="password" id="password" placeholder="Enter ..."> 
+                </div>
+            </div>
+            <p class="text">Already have an account?<a href="./logIn.html" class="login"  id="button">Log In</a></p>
+            <button id="SignUpButton">Sign Up</button>
+        </form>
+        </div>
+    </section>
+
+    <script src="./signUp.js"></script>
+</body>
+</html>

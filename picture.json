@@ -1,0 +1,92 @@
+[
+    {
+        "img": "Shop01_600x.webp",
+        "name": "Brilliant Art",
+        "size": "200x30 cm",
+        "material": "Synthetic",
+        "price": "$1120",
+        "state": "In stock!",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "id": 1
+    },
+    {
+        "img": "Shop02_600x.webp",
+        "name": "The Face of Art",
+        "size": "200x30 cm",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "material": "Synthetic",
+        "price": "$1120",
+        "state": "In stock!",
+        "id": 2
+    },
+    {
+        "img": "Shop04_600x.webp",
+        "name": "Dragon Art",
+        "size": "200x30 cm",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "material": "Synthetic",
+        "price": "$1240",
+        "state": "In stock!",
+        "id": 3
+    },
+    {
+        "img": "Shop06_600x.webp",
+        "name": "Nature Art",
+        "size": "200x30 cm",
+        "material": "Synthetic",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "price": "$1420",
+        "state": "In stock!",
+        "id": 4
+    },
+    {
+        "img": "Shop07_600x.webp",
+        "name": "Multicolor Art",
+        "size": "200x30 cm",
+        "material": "Synthetic",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "price": "$1210",
+        "state": "In stock!",
+        "id": 5
+    },
+    {
+        "img": "Shop10_600x.webp",
+        "name": "Modern Art",
+        "size": "200x30 cm",
+        "material": "Synthetic",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "price": "$1270",
+        "state": "In stock!",
+        "id": 6
+    },
+    {
+        "img": "Shop12_600x.webp",
+        "name": "Dragon Art",
+        "size": "200x30 cm",
+        "material": "Synthetic",
+        "price": "$1320",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "state": "In stock!",
+        "id": 7
+    },
+    {
+        "img": "Shop13_600x.webp",
+        "name": "Canvas Art",
+        "material": "Synthetic",
+        "size": "200x30 cm",
+        "price": "$1320",
+        "state": "In stock!",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "id": 8
+    },
+    {
+        "img": "Shop14_600x.webp",
+        "name": "Creative Art",
+        "size": "200x30 cm",
+        "material": "Synthetic",
+        "price": "$1320",
+        "description": "A premium high-quality art printed in the high definition material to look crystal clear. It is an excellent decoration material to hang on the wall of offices, living rooms, kitchens, and bars. This modern art sets a perfect ambience for every occasion. It is made of high-quality water-resistant material. It is a great gift for everyone despite gender, age, and occasion. 100% High-Quality Wooden Fra",
+        "state": "In stock!",
+        "id": 9
+    }
+]

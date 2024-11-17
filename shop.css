@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Didact Gothic', sans-serif;
+    src: url(DidactGothic-Regular.ttf);
+}
+
+html {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+/* header {
+    background-image: url(./images/breadcrumb.webp);
+} */
+
+header img {
+    width: 300px;
+}
+
+header .container {
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: relative;
+    padding: 20px 150px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header .col {
+    width: 48%;
+}
+
+header .row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .textDiv {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+
+header .textDiv a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainPart #container {
+    padding: 20px 150px;
+}
+
+#row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.mainPart .col {
+    width: 33%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPart img {
+    width: 100%;
+    height: 80%;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #9b5273;
+    color: #9b5273;
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #9b5273;
+    border: 1px solid white;
+    color: white;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sortDiv {
+    display: flex;
+}
+
+.sort div {
+    align-items: center;
+    display: flex;
+}
+
+.sortDiv h6 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+select {
+    border: 1px solid #9b5273;
+    color: #ffffff;
+    background-color: #9b5273;
+    padding: 5px;
+}
+
+select option {
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #ac6685;
+    margin-top: 50px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+
+footer .col {
+    display: block;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-family: "roboto medium";
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 17px;
+    font-family: "Roboto Regular";
+    padding-bottom: 20px;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 5px;
+    color: #000000;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "roboto_medium";
+}
+
+footer p {
+    font-family: "roboto_regular";
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-color: #000000;
+    width: auto;
+}
+
+footer input::placeholder {
+    color: #000000;
+}
+
+footer input:hover {
+    background-color: #ffffff;
+    border-color: #f60000;
+}
+
+.subscribe {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.subscribe:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.quickLinks {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #000000;
+}
+
+.mainPartProfile {
+    margin: 100px 0px;
+}
+
+.mainPartProfile img {
+    width: 100px;
+    height: 100px;
+}
+
+.mainPartProfile .container {
+    padding: 20px 200px;
+}
+
+.mainPartProfile .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mainPartProfile .row .colOne {
+    width: 33%;
+    /* background-color: #fbfbfb; */
+    background-color: #9b5273;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+.mainPartProfile .row .colOne img {
+    border-radius: 100px;
+}
+
+.mainPartProfile .col {
+    width: 66%;
+    /* background-color: #fbfbfb; */
+    background-color: #9b5273;
+    font-size: 12px;
+    padding: 20px;
+}
+
+#nameCol {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lastNameCol {
+    display: flex;
+    justify-content: space-between;
+}
+
+#emailCol {
+    display: flex;
+    justify-content: space-between;
+}
+
+#birthdayCol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainPart ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.mainPart ul li {
+    width: 32%;
+    list-style-type: none;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPart ul li a {
+    text-decoration: none;
+    color: #9b5273;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #9b5273;
+    transition: 1s;
+}
+
+.mainPart ul li a:hover {
+    background-color: #9b5273;
+    color: white;
+}
+
+.container {
+    padding: 20px 150px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.search .row {
+    text-align: center;
+}
+#colOne a{
+    font-size: 18px;
+}
+#colOne{
+    display: none;
+}
+#header{
+    display: none;
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: #000000;
+    padding: 0;
+}
+.dropDownMenu{
+    flex-direction: column;
+}
+@media screen and (max-width:762px) {
+    #colOne a h3{
+        font-size: 18px;
+        color: black;
+        padding: 0px;
+        margin: 0;
+    }
+    #colOne ul{
+        list-style-type: none;
+    }
+    #colOne a{
+        text-decoration: none;
+    }
+    .colTwo{
+        display: none;
+    }
+    #colOne{
+        flex-direction: column;
+    }
+    #header{
+        display: block;
+    }
+    footer .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .mainPartProfile .row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mainPartProfile .row .colOne {
+        width: auto;
+    }
+
+    .mainPartProfile .col {
+        width: auto;
+    }
+
+    .mainPartProfile .container {
+        padding: 30px;
+    }
+
+    header .container {
+        padding: 20px;
+    }
+
+    header .textDiv {
+        justify-content: center;
+    }
+
+    .mainPartProfile {
+        margin: 0;
+    }
+
+    footer .container {
+        padding: 30px;
+    }
+    .mainPart #container{
+        padding: 10px;
+    }
+    .mainPart ul{
+        flex-direction: column;
+    }
+    .mainPart ul li{
+        width: 100%;
+    }
+    body{
+        text-align: center;
+    }
+    .container{
+        padding: 10px;
+    }
+    input{
+        width: 90%;
+    }
+}

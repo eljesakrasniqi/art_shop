@@ -1,0 +1,29 @@
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+a{
+    border: 1px solid #9b5273;
+    background-color: #9b5273;
+    color: white;
+    display: inline-block;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 22px;
+}
+
+.col{
+    text-align: center;
+}
+
+h1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 10px;
+    color: green;
+}
